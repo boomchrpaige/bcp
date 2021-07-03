@@ -1,0 +1,80 @@
+.cards {
+    padding: 4rem;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .cards__container {
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .cards__wrapper {
+    margin: 10px 0 45px;
+    display: flex;
+    flex-direction: row;
+  }
+  .cards__items li {
+    list-style: none;
+  }
+  .cards__items a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+  } 
+  .feature:before
+  {
+    padding-left: 1.3em;
+    content: "\f1ea";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+  }
+  .review:before {
+    padding-left: 1.3em;
+    content: "\f8d9";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+  }
+  .playlist:before {
+    padding-left: 1.3em;
+    content: "\f144";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+  }
+  .interview:before {
+    padding-left: 1.3em;
+    content: "\f086";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }

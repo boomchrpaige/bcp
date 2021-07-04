@@ -34,7 +34,7 @@ function Footer() {
             </a>
             <a
               class='social-icon-link youtube'
-              href='https://www.youtube.com/channel/UCFDi6BAMzEgt2Y5Qs2HVJMQ'
+              href='https://www.youtube.com/c/SeriousBoom'
               target='_blank'
               rel='noreferrer'
               aria-label='Youtube'
@@ -59,6 +59,33 @@ function Footer() {
             >
               <i class='fab fa-soundcloud' />
             </a>
+            <a
+              class='social-icon-link bandcamp'
+              href='https://boomchrpaige.bandcamp.com'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Bandcamp'
+            >
+              <i class='fab fa-bandcamp' />
+            </a>      
+            <a
+              class='social-icon-link applemusic'
+              href='https://music.apple.com/us/artist/boom-chr-paige/80850403'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Apple Music'
+            >
+              <i class='fab fa-apple' />
+            </a>            
+            <a
+              class='social-icon-link spotify'
+              href='https://open.spotify.com/artist/46GltPuUxikh6VuxhJSB1Z'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='Spotify'
+            >
+              <i class='fab fa-spotify' />
+            </a>       
           </div>
         </div>
       </section>

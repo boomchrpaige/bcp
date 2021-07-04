@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-    background: url('/src/components/images/BCP_MEMBRANES_LIVE.png') center center/cover no-repeat;
+    /*background: url('/src/components/images/BCP_MEMBRANES_LIVE.png') center center/cover no-repeat;*/
     background-color: #232942;
     height: 100vh;
     width: 100%;

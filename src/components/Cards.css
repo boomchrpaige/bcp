@@ -15,12 +15,13 @@
   }
   
   .cards__wrapper {
-    margin: 10px 0 45px;
-    display: flex;
+    margin: 20px 0 0 0;
+    display: block;
     flex-direction: row;
   }
   .cards__items li {
     list-style: none;
+    text-align: center;
   }
   .cards__items a {
     text-decoration: none;
@@ -34,7 +35,7 @@
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em;
-    width: 1.3em;
+    width: 2.3em;
   }
   .review:before {
     padding-left: 1.3em;
@@ -42,7 +43,7 @@
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em;
-    width: 1.3em;
+    width: 2.3em;
   }
   .playlist:before {
     padding-left: 1.3em;
@@ -50,7 +51,7 @@
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em;
-    width: 1.3em;
+    width: 2.3em;
   }
   .interview:before {
     padding-left: 1.3em;
@@ -58,24 +59,24 @@
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em;
-    width: 1.3em;
+    width: 2.3em;
   }
   
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 2200px) {
     .content__blog__container {
       width: 84%;
     }
   }
   
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 4024px) {
     .cards__items {
       display: flex;
+      text-align: center;
     }
   }
   
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
+  @media only screen and (max-width: 422px) {
+    .cards__items {
       display: flex;
-      margin-bottom: 2rem;
     }
   }

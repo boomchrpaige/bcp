@@ -75,6 +75,7 @@
   
   @media only screen and (max-width: 1024px) {
     .cards__item {
+      display: flex;
       margin-bottom: 2rem;
     }
   }

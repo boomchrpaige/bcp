@@ -68,19 +68,19 @@
     }
   }
   
-  @media only screen and (max-width: 1400px) {
+  @media only screen and (max-width: 1440px) {
   .cards__container {
     margin: auto;
     width: 100%;
   }
   .cards__items {
-    width: 40%;
+    width: 60%;
   }
   .cards__items a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 24px;
   } 
 }
 @media only screen and (max-width: 768px) {
@@ -95,6 +95,6 @@
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 20px;
   } 
 }

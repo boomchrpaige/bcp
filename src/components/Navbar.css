@@ -30,9 +30,8 @@
     font-weight: 600;
   }
   
-  .fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+  .bcp {
+    background-image: image('../logo192.png');
   }
   
   .nav-menu {

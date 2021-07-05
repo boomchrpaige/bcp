@@ -27,7 +27,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-                        boomchrpaige
+                        <img src="../logo192.png" alt="boom chr paige" width="30" height="30" />&nbsp;boomchrpaige
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

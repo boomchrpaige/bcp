@@ -75,7 +75,7 @@
     }
   }
   
-  @media only screen and (max-width: 422px) {
+  @media only screen and (max-width: 122px) {
     .cards__items {
       display: flex;
     }

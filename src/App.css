@@ -19,7 +19,6 @@
 
 .news {
   background-image: url('/src/components/images/BCP_MEMBRANES_LIVE.png');
-  /*background-image: url('/images/img-2.jpeg'); */
   background-position: center;
   background-size: cover;
   background-color: darkslategray;
@@ -64,4 +63,11 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+@media only screen and (max-width: 768px) {
+  .about_text {
+    color: #090909;
+    font-size: 18px;
+    padding: 9px 50px 24px 50px;
+  }
 }

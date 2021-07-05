@@ -98,3 +98,28 @@ video {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .hero-container > h1 {
+        font-size: 36px;
+        margin-top: -10px;
+    
+    }  
+    .hero-container > h3 {
+        font-size: 18px;
+    }
+
+    .hero-container > p {
+        font-size: 14px;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }  
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+
+    }
+    .btn {
+        width: 100%;
+    }
+}

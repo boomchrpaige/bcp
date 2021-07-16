@@ -8,6 +8,7 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                 <ul className='cards__items'>
+                <li className="playlist"><a href='https://bit.ly/3z54jPE' target='_blank' rel='noreferrer'>Feature on Ambient Soul Vibrations</a></li>
                 <li className="playlist"><a href='https://open.spotify.com/playlist/2CsTZ92uYaXI7oYuoq7NwM?si=542b93cc4de64f2c&nd=1' target='_blank' rel='noreferrer'>Feature @ Music Enthusiast's New Music Friday</a></li>
                 <li className="interview"><a href='https://bit.ly/3quH2ne' target='_blank' rel='noreferrer'>Interview with Mundane Magazine</a></li>
                 <li className="review"><a href='https://bit.ly/3wXMxgE' target='_blank' rel='noreferrer'>Membranes LP review from Exclusive Magazine</a></li>

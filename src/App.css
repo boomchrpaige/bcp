@@ -53,9 +53,24 @@
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 40px;
+  font-weight: 600;
 }
-
+.links_container {
+  width: 80vw;
+  margin: auto;
+}
+.links_items {
+  display: inline-flex;
+  width: 25vw;
+  height: 180px;
+  padding: 20px;
+  margin: 10px;
+  border-color: black;
+  border-radius: 18px;
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 .sign-up {
   background-image: url('/src/components/images/BCP_MEMBRANES_LIVE.png');
   background-position: center;

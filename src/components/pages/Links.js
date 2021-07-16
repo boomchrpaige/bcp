@@ -1,6 +1,14 @@
 import React from 'react';
 import '../../App.css';
 
-export default function Links() {
-    return <h1 className='links'>LINKS</h1>;
+ function Links() {
+    return (
+    <>
+        <h3 className='links'>LINKS</h3>
+        <ul className="links_container">
+        </ul>
+    </>
+    );
 }
+
+export default Links;
